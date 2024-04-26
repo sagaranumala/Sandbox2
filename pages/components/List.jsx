@@ -47,7 +47,7 @@ const List = () => {
     <div className='flex flex-col'>
         {
             data.map((user,i)=>{
-                return <div className="dropdown bg-[aqua] w-[300px]">
+                return <div className="dropdown bg-[aqua] w-[300px]" key={i}>
                             <div className="dropbtn" id='1' >
                                 <ChevronRightSharpIcon className='drop-icon' id='1'/>
                                 <button className='ml-[70px] text-[20px] font-midium' id='1'>User{i+1}</button>
