@@ -5,9 +5,9 @@ import ChevronRightSharpIcon from '@mui/icons-material/ChevronRightSharp';
 
 const List = () => {
 
-    const [validationErrors, setValidationErrors] = useState<
-    Record<string, string | undefined>
-  >({});
+  //   const [validationErrors, setValidationErrors] = useState<
+  //   Record<string, string | undefined>
+  // >({});
 
   const[data,setData]=useState([]);
    const[data2,setData2]=useState([]);
